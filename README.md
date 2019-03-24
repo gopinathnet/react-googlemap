@@ -13,12 +13,10 @@ You will also see any lint errors in the console.
 
 ### `Google Maps API Key Update`
 
-Update your google maps key in following code in <SimpleMap/> component  .<br>
-export default GoogleApiWrapper({
-  apiKey: 'your API goes Here'
-})(SimpleMap);
-
-<br>
+Update your google maps key in following code from SimpleMap component  .<br>
+export default GoogleApiWrapper({ <br>
+  apiKey: 'your API goes Here' <br>
+})(SimpleMap);<br>
 <br>
 if you don't have google maps api keys sign up here <br>
 https://developers.google.com/maps/documentation/javascript/get-api-key 
